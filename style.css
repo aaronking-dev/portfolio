@@ -223,3 +223,31 @@ footer {
 #home_gridText {
   grid-column: span 14;
 }
+
+.home_logo {
+  width: 128px;
+  height: 128px;
+}
+
+#home_iconContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 36px;
+  height: 143px;
+  width: 240px;
+  text-align: center;
+}
+
+#home_iconContainer * {
+  margin-top: 0px;
+  font-size: 128px;
+  width: 128px;
+  color: black;
+  text-align: center;
+  transition: font-size 0.1s;
+  grid-column: span 1;
+}
+
+#home_iconContainer a:hover {
+  font-size: 136px;
+}
